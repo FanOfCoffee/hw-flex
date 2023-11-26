@@ -1,0 +1,84 @@
+p,
+header,
+main,
+nav,
+section,
+aside,
+footer,
+div {
+        border: 1px solid blueviolet;
+}
+
+header{
+    background-color:lightblue;
+    display: flex;
+    height: 10vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    height: 75vh;
+}
+
+h2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+aside {
+    background-color: aqua;
+    flex-basis: 40vw;
+}
+
+div {
+
+    display: flex;
+    background-color: aquamarine;
+    flex-basis: 60vw;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    width: 100px;
+
+}
+
+.divp {
+    background-color: lightgrey;
+    padding: 5px;
+    display: flex;
+    flex-basis: 100px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-items: flex-end;
+    justify-content: center;
+    margin: 10px;
+
+}
+
+
+footer {
+    background-color: lightblue;
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    flex-wrap: nowrap;
+    border: 1px solid greenyellow;
+    height: 15vh
+    
+}
+
+.flexp {
+    background-color: lightpink;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
